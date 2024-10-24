@@ -1,4 +1,9 @@
 body {
     font-family: var(--ff-primary);
-    background-color: var(--color-background);
+    color: var(--color-white);
+    background-color: var(--color-darkest);
+}
+
+.hidden {
+    display: none;
 }

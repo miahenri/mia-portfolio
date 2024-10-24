@@ -1,3 +1,19 @@
 :root {
   --ff-primary: poppins, sans-serif;
+  --ff-secondary: nanum-pen-script, sans-serif;
+
+  --color-red: #BF1304;
+  --color-red-light: #EB2826;
+  --color-yellow: #F1B33D;
+  --color-white: #FFFCF7;
+  --color-dark: #404040;
+  --color-darkest: #0D0D0D;
+
+  --lh-tight: 100%;
+  --lh-normal: 130%;
+  --lh-loose: 150%;
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
 }

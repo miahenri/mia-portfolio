@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90de, var(--color-darkest), transparent);
+    padding: 20px 30px;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin-left: 40px;
+        }
+    }
+}

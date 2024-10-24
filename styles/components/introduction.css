@@ -1,0 +1,12 @@
+.introduction {
+    margin-top: 74px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+    h1 {
+        font: var(--ff-primary);
+        font-weight: 600;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+}
