@@ -4,6 +4,8 @@ header {
     justify-content: space-between;
     background: linear-gradient(90de, var(--color-darkest), transparent);
     padding: 20px 30px;
+    position: sticky;
+    top: 0;
 
     ul {
         display: flex;
