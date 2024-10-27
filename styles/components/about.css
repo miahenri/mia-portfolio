@@ -1,0 +1,29 @@
+.about {
+    margin-left: 100px;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .subtitle {
+        font-family: var(--ff-secondary);
+        font-size: 28px;
+        margin-left: 70px;
+        color: var(--color-red);
+    }
+
+}
+
+.about-paragraph {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-right: 60px;
+
+    p {
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+}
