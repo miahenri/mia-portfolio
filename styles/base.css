@@ -4,10 +4,6 @@ body {
     background-color: var(--color-darkest);
 }
 
-.hidden {
-    display: none;
-}
-
 .highlight-red {
     color: var(--color-red);
 }
@@ -22,4 +18,9 @@ html {
 
 section {
     scroll-snap-align: center;
+}
+
+.icon {
+    font-family: var(--ff-icons);
+    font-size: 18px;
 }

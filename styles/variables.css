@@ -1,6 +1,7 @@
 :root {
   --ff-primary: poppins, sans-serif;
   --ff-secondary: "Nanum Pen Script", sans-serif;
+  --ff-icons: material-icons;
 
   --color-red: #BF1304;
   --color-red-light: #EB2826;

@@ -8,6 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/combined.css" />
+    <script src="data/scripts/socials-icons.js" defer></script>
   </head>
   <body>
     <header>
@@ -20,8 +21,13 @@
         <li>about me</li>
         <li>projects</li>
         <li>contact</li>
-        <li><img src="data/images/linkedin-logo.png" alt="linkedin-logo" width="25px" /></li>
+        <li><span class="icon" id="js-socials-hover">alternate_email</span></li>
       </ul>
+      <div class="hover-icons hidden" id="js-socials-popup">
+        <img src="data/images/linkedin-logo.png" alt="linkedin-logo" />
+        <img src="data/images/github-logo-2.png" alt="github-logo" />
+        <img src="data/images/spotify-icon.webp" alt="spotify-icon" />
+      </div>
     </header>
     <main>
       <section class="introduction">
@@ -79,21 +85,25 @@
         <p class="subtitle">MIA HENRICHSMEYER</p>
         <div class="about-paragraph">
           <p>
-            Hi, I’m Mia, originally from <span class="highlight-yellow">Bielefeld</span>, where I graduated from Ratsgymnasium in 2021.
-            <span class="highlight-yellow">Creativity</span> has always been a big part of who I am, and in high school, I discovered my
-            love for <span class="highlight-yellow">technology</span> through the STEM subjects. It was in 10th grade that I really
-            realized my talent for computer science.
+            Hi, I’m Mia, originally from <span class="highlight-yellow">Bielefeld</span>, where I
+            graduated from Ratsgymnasium in 2021.
+            <span class="highlight-yellow">Creativity</span> has always been a big part of who I am,
+            and in high school, I discovered my love for
+            <span class="highlight-yellow">technology</span> through the STEM subjects. It was in
+            10th grade that I really realized my talent for computer science.
           </p>
           <p>
             After graduating, I spent a year working different jobs and doing internships to explore
-            the field that would be the right fit for me. In 2022, I moved to Cologne to study <span class="highlight-yellow">Media
-            Informatics</span> at TH Köln. During my studies, I gained a lot of practical experience in
-            areas like <span class="highlight-yellow">frontend and backend development</span>, audiovisual media, and human-computer
-            interaction.
+            the field that would be the right fit for me. In 2022, I moved to Cologne to study
+            <span class="highlight-yellow">Media Informatics</span> at TH Köln. During my studies, I
+            gained a lot of practical experience in areas like
+            <span class="highlight-yellow">frontend and backend development</span>, audiovisual
+            media, and human-computer interaction.
           </p>
           <p>
             Now I’m excited to take on new projects and challenges. If you’re looking for creative
-            and modern solutions, feel free to reach out — <span class="highlight-yellow">I’d love to hear from you!</span>
+            and modern solutions, feel free to reach out —
+            <span class="highlight-yellow">I’d love to hear from you!</span>
           </p>
         </div>
       </section>
