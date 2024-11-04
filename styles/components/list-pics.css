@@ -1,6 +1,8 @@
 .list-pics {
+    padding-top: 50px;
     margin-top: 250px;
     margin-left: 125px;
+    margin-bottom: 75px;
 
     h2 {
         font-size: 40px;

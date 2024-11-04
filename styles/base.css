@@ -15,3 +15,11 @@ body {
 .highlight-yellow {
     color: var(--color-yellow);
 }
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: center;
+}
