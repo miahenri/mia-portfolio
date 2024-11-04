@@ -7,3 +7,11 @@ body {
 .hidden {
     display: none;
 }
+
+.highlight-red {
+    color: var(--color-red);
+}
+
+.highlight-yellow {
+    color: var(--color-yellow);
+}
