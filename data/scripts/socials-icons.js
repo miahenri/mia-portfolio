@@ -4,13 +4,13 @@ let isVisible = false;
 
 hoverElement.addEventListener('mouseenter', () => {
     if (!isVisible) {
-        popUpElement.classList.add('show');
-        popUpElement.classList.remove('hidden');
+        popUpElement.classList.add('show-icons');
+        popUpElement.classList.remove('hidden-icons');
         isVisible = true;
     }
     else if (isVisible) {
-        popUpElement.classList.remove('show');
-        popUpElement.classList.add('hidden');
+        popUpElement.classList.remove('show-icons');
+        popUpElement.classList.add('hidden-icons');
         isVisible = false;
     }
 });

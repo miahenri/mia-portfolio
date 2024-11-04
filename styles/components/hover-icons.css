@@ -12,10 +12,10 @@
     }
 }
 
-.hidden {
+.hidden-icons {
     right: -30px;
 }
 
-.show {
+.show-icons {
     right: 30px;
 }

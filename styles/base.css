@@ -4,6 +4,10 @@ body {
     background-color: var(--color-darkest);
 }
 
+.hidden {
+    display: none;
+}
+
 .highlight-red {
     color: var(--color-red);
 }
