@@ -1,26 +1,26 @@
 @font-face {
-    font-family: "Poppins";
-    src: url("../data/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-family: "Poppins";
+  src: url("../data/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("../data/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
-    font-weight: 500;
+  font-family: "Poppins";
+  src: url("../data/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("../data/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
-    font-weight: 600;
+  font-family: "Poppins";
+  src: url("../data/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: "Nanum Pen Script";
-    src: url("../data/fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf") format("truetype");
+  font-family: "Nanum Pen Script";
+  src: url("../data/fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: material-icons;
-    src: url("../data/fonts/Material_Icons/font/MaterialIconsOutlined-Regular.otf") format("opentype");
+  font-family: material-icons;
+  src: url("../data/fonts/Material_Icons/font/MaterialIconsOutlined-Regular.otf") format("opentype");
 }

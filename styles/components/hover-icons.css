@@ -1,21 +1,21 @@
 .hover-icons {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    position: absolute;
-    top: 100px;
-    right: -30px;
-    transition: right 0.5s ease;
+  position: absolute;
+  top: 100px;
+  right: -30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  transition: right 0.5s ease;
 
-    img {
-        width: 20px;
-    }
+  img {
+    width: 20px;
+  }
 }
 
 .hidden-icons {
-    right: -30px;
+  right: -30px;
 }
 
 .show-icons {
-    right: 30px;
+  right: 30px;
 }

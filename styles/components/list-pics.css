@@ -1,39 +1,39 @@
 .list-pics {
-    padding-top: 50px;
-    margin-top: 250px;
-    margin-left: 125px;
-    margin-bottom: 75px;
+  padding-top: 50px;
+  margin-top: 250px;
+  margin-left: 125px;
+  margin-bottom: 75px;
 
-    h2 {
-        font-size: 40px;
-        font-weight: 600;
-        color: var(--color-yellow);
-    }
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color-yellow);
+  }
 }
 
 .item-container {
-    display: flex;
-    flex-direction: row;
-    gap: 200px;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 40px;
 
-    div {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .item {
-    display: flex;
-    flex-direction: row;
-    font-size: 24px;
-    margin-right: 150px;
-    margin-bottom: 60px;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 24px;
+  margin-right: 150px;
+  margin-bottom: 60px;
 
-    img {
-        height: auto;
-        width: 75px;
-    }
+  img {
+    width: 75px;
+    height: auto;
+  }
 }

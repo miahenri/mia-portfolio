@@ -1,40 +1,40 @@
 .introduction {
-    margin-top: 150px;
-    margin-left: 250px;
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+
+  h1 {
+    margin-bottom: 20px;
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    font-size: 64px;
+  }
+
+  .subtext {
     margin-bottom: 100px;
+    font-weight: 200;
+    font-size: 34px;
+  }
 
-    h1 {
-        font-family: var(--ff-primary);
-        font-weight: 600;
-        font-size: 64px;
+  .intro-list {
+    display: flex;
+    flex-direction: row;
+    font-size: 34px;
+
+    p {
+      font-family: var(--ff-secondary);
+      font-size: 44px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 15px;
+      margin-top: 5px;
+
+      li {
+        padding-left: 0;
         margin-bottom: 20px;
+      }
     }
-
-    .subtext {
-        font-weight: 200;
-        font-size: 34px;
-        margin-bottom: 100px;
-    }
-
-    .intro-list {
-        display: flex; 
-        flex-direction: row;
-        font-size: 34px;
-
-        p{
-            font-family: var(--ff-secondary);
-            font-size: 44px;
-        }
-
-        ul {
-            list-style-type: none;
-            margin-left: 15px;
-            margin-top: 5px;
-
-            li {
-                padding-left: 0;
-                margin-bottom: 20px;
-            }
-        }
-    }
+  }
 }

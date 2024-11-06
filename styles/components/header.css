@@ -1,21 +1,26 @@
 header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background: linear-gradient(
+    to bottom,
+    var(--color-darkest),
+    rgba(13, 13, 13, 0.5) 65%,
+    transparent
+  );
+
+  ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background: linear-gradient(to bottom, var(--color-darkest), rgba(13,13,13,0.5) 65%, transparent);
-    padding: 20px 30px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    align-items: center;
+    list-style: none;
 
-    ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        list-style: none;
-
-        li {
-            margin-left: 40px;
-        }
+    li {
+      margin-left: 40px;
     }
+  }
 }

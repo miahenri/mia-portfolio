@@ -14,7 +14,3 @@ hoverElement.addEventListener('mouseenter', () => {
         isVisible = false;
     }
 });
-
-hoverElement.addEventListener('click', () => {
-    
-});

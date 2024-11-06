@@ -1,41 +1,37 @@
 .banner {
-    display: flex;
-    overflow: hidden;
-    white-space: nowrap;
-    background-color: var(--color-yellow);
-    color: var(--color-darkest);
-    padding: 15px 0;
-    font-size: 1.5rem;
-    position: relative;
-}
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: var(--color-yellow);
+  color: var(--color-darkest);
+  padding: 15px 0;
+  font-size: 1.5rem;
 
-/* Definiere eine flexible Zeile */
-.banner li {
-    font-size: 18px;
+  li {
+    position: relative;
     display: inline-block;
+    font-size: 18px;
     padding: 0 5px;
-    position: relative;
     animation-duration: var(--scroll-duration);
-}
 
-/* Füge das Pluszeichen zwischen den Einträgen hinzu */
-.banner li:not(:last-child)::after {
-    content: "+";
-    padding-left: 10px;
-}
+    &:not(:last-child)::after {
+      content: "+";
+      padding-left: 10px;
+    }
+  }
 
-/* Dupliziere die Liste für einen nahtlosen Übergang */
-.banner-content {
+  .banner-content {
     display: flex;
     animation: scroll 20s linear infinite;
+  }
 }
 
-/* Animation für das Scrollen der gesamten Liste */
 @keyframes scroll {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
