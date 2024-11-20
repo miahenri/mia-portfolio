@@ -16,12 +16,12 @@
   flex-direction: row;
   gap: 200px;
   margin-top: 40px;
+}
 
-  div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+.item-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .item {
@@ -31,9 +31,42 @@
   font-size: 24px;
   margin-right: 150px;
   margin-bottom: 60px;
+  position: relative;
 
   img {
     width: 75px;
     height: auto;
   }
+
+  p {
+    margin-bottom: 15px;
+  }
+}
+
+
+.stars-container {
+  position: absolute; /* Absolute Positionierung der Sterne */
+  top: 50 px;
+  left: 75 px; /* Positioniere die Sterne rechts vom Item */
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.star-full {
+  background-image: url("/data/images/star-full.png");
+}
+
+.star-empty {
+  background-image: url("/data/images/star-empty.png");
+}
+
+.hidden-icons {
+  display: none;
 }

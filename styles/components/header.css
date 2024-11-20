@@ -12,18 +12,21 @@ header {
     rgba(13, 13, 13, 0.5) 65%,
     transparent
   );
-
   ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     list-style: none;
     font-family: var(--ff-primary);
-    text-decoration: none;
     color: var(--color-white);
 
     li {
       margin-left: 40px;
+
+      a {
+        color: var(--color-white);
+        text-decoration: none;
+      }
     }
   }
 }
