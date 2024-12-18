@@ -60,11 +60,11 @@
 }
 
 .star-full {
-  background-image: url("/../../data/images/star-full.png");
+  background-image: url("/../data/images/star-full.png");
 }
 
 .star-empty {
-  background-image: url("/../../data/images/star-empty.png");
+  background-image: url("/../data/images/star-empty.png");
 }
 
 .hidden-icons {
