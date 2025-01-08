@@ -31,7 +31,7 @@ footer {
   p {
     margin-top: 10px;
     font-family: var(--ff-secondary);
-    font-size: 30px;
+    font-size: 25px;
     color: var(--color-yellow);
   }
 }
@@ -45,5 +45,11 @@ footer {
     font-weight: 600;
     color: var(--color-darkest);
     background-color: var(--color-white);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Schatten hinzufügen */
+    transition: box-shadow 0.3s ease; /* Übergangseffekt für den Schatten */
   }
+}
+
+.copy-button p:hover {
+  box-shadow: none; /* Schatten entfernen */
 }
